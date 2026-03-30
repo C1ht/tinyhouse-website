@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/plus-jakarta-sans';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans Variable', sans-serif;
+
+  /* colors */
+  --color-muted: #71717a;
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+  --color-primary-text: #fff;
+  --color-secondary: #8b5cf6;
+  --color-secondary-hover: #7c3aed;
+  --color-secondary-text: #fff;
+  --color-danger: #ef4444;
+  --color-danger-hover: #dc2626;
+  --color-danger-text: #fff;
+  --color-ghost: transparent;
+  --color-ghost-hover: #f1f5f9;
+  --color-ghost-text: #100c08;
+  --color-outline: transparent;
+  --color-outline-hover: #f1f5f9;
+  --color-outline-text: #100c08;
+  --color-outline-border: #e2e8f0;
+  --color-link-text: #100c08;
+
+  /* spacing, sizing, whatever */
+  --py-btn: 4px;
+  --px-btn: 8px;
+
+  --radius-btn: 8px;
+  --transition: all ease 0.15s;
+
+  --color-accordion-border: #e2e8f0;
+  --color-accordion-hover: #f8fafc;
+  --color-accordion-text: #100c08;
+  --color-accordion-content-text: #64748b;
+  --color-accordion-filled: #f1f5f9;
+  --color-accordion-filled-hover: #e2e8f0;
+
+  --px-accordion: 16px;
+  --py-accordion: 14px;
+  --radius-accordion: 8px;
+}
